@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Pacifico&family=Poppins:wght@300;400;600;900&family=Rowdies:wght@300&display=swap');
+.Blog-item{
+    display: flex;
+    
+
+}
+.Blog-item .Blog-date-cat{
+    color: #e2a3a7;
+}
+.Blog-img .Blog-img-item{
+    width: 500px;
+    border-radius: 5px;
+}
+.Blog-info{
+     margin-left: 20px;
+}
+.Blog-info span{
+    font-weight: bold;
+}
+.Blog-stasitique{
+     
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between; 
+}
+.Blog-stasitique a{
+     font-weight: bold;
+     font-size: 20px;
+      
+}
+.Blog-stasitique i{
+    font-weight: 500;
+
+}
+.Blog-stasitique span{
+  
+
+}
+.Blog-stasitique .blog-like-counter{
+    margin-right: 10px;
+}
+@media (max-width:780px) {
+    .Blog-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .Blog-info{
+        margin-left: 0px;
+   }
+   .Blog-img .Blog-img-item{
+    width: 100%;
+    border-radius: 5px;
+}
+}
+.blog-detail-content{
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+.blog-detail-img img{
+    width: 100%;
+    max-height: 500px;
+    border-radius: 20px;
+}
+.comments h2,h3{
+    font-family: 'Cairo', sans-serif;
+
+}
+.comments i{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.comments img{
+    width: 40px;
+    margin-left: 10px;
+}
+.comments-List-item span{
+  font-size: 15px;
+} 

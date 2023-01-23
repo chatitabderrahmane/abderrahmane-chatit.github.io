@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Pacifico&family=Poppins:wght@300;400;600;900&family=Rowdies:wght@300&display=swap');
+ 
+.header{
+    
+    background-color: #0c0f1d;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.header .header-title{
+       font-weight: bold;
+       font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+}
+.header .header-desc{
+      
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+     
+          
+}
+.breadcrumb{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+.service-description img{
+    border-radius: 2%;
+}
+/* mobile */
+@media (max-width:780px) {
+    .header .header-title{
+        font-weight: bold;
+        font-size: 40px;
+       font-family: 'Poppins', sans-serif;
+        text-align: center;
+ }
+ .header .header-social-media{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    
+}
+.header .header-social-media i{
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 20px 10px;
+    border: 2px white solid;
+    
+}
+}
+/* desctop */
+@media (min-width:780px) {
+    .header .header-desc{
+      
+        text-align: center;
+        padding: 15px;
+        font-size: 20px;
+         margin: 0 130px; 
+              
+    }
+    
+    .header .header-social-media{
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        padding:20px;
+    }
+    .header .header-social-media i{
+        border-radius: 50px;
+        font-size: 20px;
+        margin: 10px;
+        border: 3px white solid;
+        
+    }
+}
+.section-share{
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+.section-share a{
+    margin: 10px;
+}
+.section-share  span{
+font-family: 'Pacifico', cursive;
+font-size: 20px;
+color: blue;
+}
+.service-description p{
+    font-size: 20px;
+    
+}
