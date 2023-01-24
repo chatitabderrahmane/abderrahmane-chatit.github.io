@@ -30,7 +30,7 @@
      }
      .contact .right-side .frm{
       display: block;
-      width: 380px;
+      width: 340px;
       padding: 10px;
       margin: 5px;
       border: none;
@@ -118,11 +118,13 @@
    border-bottom:2px #dc3545  ;
    color: #dc3545;
  }
- .services-itemes{
+ .services-iteme{
    display: flex;
-    
  }
- .services-itemes .service-icon{
+ .services-iteme{
+   width: 500px;
+ }
+ .services-iteme .service-icon{
    font-size: 50px;
    color: #dc3545;
    transition: 0.5s;
@@ -131,11 +133,11 @@
    text-decoration: none;
    
  }
- .services-itemes .ltr-effect{
+ .services-iteme .ltr-effect{
    position: relative;
    
  }
- .services-itemes .ltr-effect::after{
+ .services .ltr-effect::after{
    position: absolute;
    content: "";
    width: 0%;
@@ -146,16 +148,16 @@
    transition: 0.5s ;
    background-color: #dc3545;
  }
- .services-itemes .ltr-effect:hover .service-icon {
+ .services-iteme .ltr-effect:hover .service-icon {
          color: white;                            
  }
- .services-itemes .ltr-effect:hover h2{
+ .services-iteme .ltr-effect:hover h2{
    color: white;                            
 }
-.services-itemes .ltr-effect:hover p {
+.services-iteme .ltr-effect:hover p {
    color: white;                            
 }
- .services-itemes .ltr-effect:hover::after {
+ .services-iteme .ltr-effect:hover::after {
    width: 100%;
 
  }
